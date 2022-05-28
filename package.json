@@ -1,0 +1,26 @@
+{
+  "name": "typesafe-api-caller",
+  "version": "0.0.1",
+  "description": "A typescript api caller library for JS/TS apps ",
+  "main": "index.ts",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinha-sahil/typesafe-api-caller.git"
+  },
+  "keywords": [
+    "api-caller",
+    "typesafe",
+    "typesafe-api-caller",
+    "typescript-api-caller",
+    "ts-api-caller"
+  ],
+  "author": "Sahil Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinha-sahil/typesafe-api-caller/issues"
+  },
+  "homepage": "https://github.com/sinha-sahil/typesafe-api-caller#readme"
+}
