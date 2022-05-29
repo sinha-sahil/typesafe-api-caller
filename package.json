@@ -1,8 +1,11 @@
 {
   "name": "typesafe-api-caller",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A typescript api caller library for JS/TS apps ",
   "main": "index.ts",
+  "scripts": {
+    "dev": "tsc --watch"
+  },
   "directories": {
     "doc": "docs"
   },

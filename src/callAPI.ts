@@ -14,7 +14,7 @@ type ResponseDecoder<ExpectedResponse> = (rawResponse: JSONObject) => ExpectedRe
  * @returns An resolved Promise with Two Instances - APISuccess or APIFailure
  */
 
-export async function callAPI<ExpectedResponse, ExpectedError>(
+export async function callAPI<ExpectedResponse>(
   apiRequest: APIRequest,
   responseDecoder: ResponseDecoder<ExpectedResponse>
 ): Promise<APIResponse<ExpectedResponse>> {
