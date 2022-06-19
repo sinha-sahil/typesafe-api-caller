@@ -1,6 +1,6 @@
 {
   "name": "typesafe-api-caller",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A typescript api caller library for JS/TS apps ",
   "main": "index.ts",
   "scripts": {
@@ -25,5 +25,24 @@
   "bugs": {
     "url": "https://github.com/sinha-sahil/typesafe-api-caller/issues"
   },
-  "homepage": "https://github.com/sinha-sahil/typesafe-api-caller#readme"
+  "homepage": "https://github.com/sinha-sahil/typesafe-api-caller#readme",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./index.js",
+    "./index.d.ts": "./index.d.ts",
+    "./callAPI.js": "./callAPI.js",
+    "./callAPI.d.ts": "./callAPI.d.ts",
+    "./types/APIFailure.js": "./types/APIFailure.js",
+    "./types/APIFailure.d.ts": "./types/APIFailure.d.ts",
+    "./types/APIRequest.js": "./types/APIRequest.js",
+    "./types/APIRequest.d.ts": "./types/APIRequest.d.ts",
+    "./types/APIResponse.js": "./types/APIResponse.js",
+    "./types/APIResponse.d.ts": "./types/APIResponse.d.ts",
+    "./types/APISuccess.js": "./types/APISuccess.js",
+    "./types/APISuccess.d.ts": "./types/APISuccess.d.ts",
+    "./types/HttpMethod.js": "./types/HttpMethod.js",
+    "./types/HttpMethod.d.ts": "./types/HttpMethod.d.ts",
+    "./types/JSONObject.js": "./types/JSONObject.js",
+    "./types/JSONObject.d.ts": "./types/JSONObject.d.ts"
+  }
 }
